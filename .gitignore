@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+_build_roh.pdf
+*.tmp.pdf
