@@ -78,7 +78,7 @@ def kapitel_reihenfolge():
         if teil:
             eintraege.append(("teil", teil.group(1), None))
             continue
-        kap = re.match(r"\|\s*([^|]+?)\s*\|\s*\[([^\]]+)\]\(([^)]+\.md)\)", zeile)
+        kap = re.match(r"\|\s*([^|]+?)\s*\|\s*\[([^\]]+)\]\(([^)/]+\.md)\)", zeile)
         if kap:
             eintraege.append(("kapitel", kap.group(1), (kap.group(2), kap.group(3))))
     return eintraege
@@ -88,10 +88,10 @@ def anker(dateiname):
     return "k-" + Path(dateiname).stem
 
 
-def md_zu_html(md, text):
-    # Logo nur einbinden, wenn vorhanden
+def md_zu_html(md, text, basis=WERK):
+    # Bilder nur einbinden, wenn vorhanden (Pfad relativ zur Markdown-Datei)
     def bild(m):
-        pfad = WERK / m.group(1)
+        pfad = (basis / m.group(1)).resolve()
         return m.group(0).replace(m.group(1), pfad.as_uri()) if pfad.exists() else ""
     text = re.sub(r'<img src="([^"]+)"[^>]*>', bild, text)
     # "Stand" und "Kurz" im Kopfkasten als eigene Absätze

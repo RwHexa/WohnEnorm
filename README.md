@@ -11,6 +11,13 @@ Ein Fach- und Nachschlagewerk für **Elektrofachkräfte und Planer**. Es stellt 
 
 ---
 
+### Zusatzdokumente
+
+| Dokument | PDF |
+|---|---|
+| Wiederkehrende Prüfung ortsfester elektrischer Anlagen in Wohnungen – nach DGUV Vorschrift 3 und DIN VDE 0105-100: was und wie zu prüfen ist | [DGUV-V3_Pruefung_Wohnung.pdf](zusatz/DGUV-V3_Pruefung_Wohnung.pdf) |
+| Prüfprotokoll Wohnung – Formular zum Ausdrucken (4 Seiten) | [DGUV-V3_Pruefprotokoll_Wohnung.pdf](zusatz/DGUV-V3_Pruefprotokoll_Wohnung.pdf) |
+
 ## Geltungsbereich
 
 - Wohnungen im **Mehrfamilienhaus**, Neubau: vom Hausanschluss bis zur Steckdose
@@ -43,7 +50,8 @@ Voraussetzungen: Python 3 mit `markdown-it-py` und `PyMuPDF`, dazu Google Chrome
 
 ```bash
 pip install markdown-it-py pymupdf
-python werkzeuge/build_pdf.py
+python werkzeuge/build_pdf.py      # Gesamtfassung
+python werkzeuge/build_zusatz.py   # Zusatzdokumente
 ```
 
 Das Skript liest die Kapitelreihenfolge aus `INHALT.md`, setzt alles zu einer HTML-Seite zusammen, druckt sie über Chrome/Edge headless als PDF und ergänzt Seitenzahlen, Inhaltsverzeichnis und Lesezeichen.

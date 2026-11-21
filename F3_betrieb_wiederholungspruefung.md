@@ -31,6 +31,7 @@ Das Quellmaterial nennt DGUV V3 als Prüfgrundlage im Wohnungsbau. Das trifft ni
 
 - Prüfumfang der Wiederholungsprüfung: Besichtigen, Erproben, Messen wie F1, mit Augenmerk auf Veränderungen seit der letzten Prüfung.
 - Ergebnis dokumentieren und dem Eigentümer übergeben.
+- Ausführliche Prüfanleitung (was und wie zu prüfen ist, Grenzwerte, Mängelklassen) und Prüfprotokoll: Zusatzdokument „Wiederkehrende Prüfung ortsfester elektrischer Anlagen in Wohnungen“ im Ordner `zusatz/`.
 
 ## 5 Querverweise
 

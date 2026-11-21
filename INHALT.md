@@ -58,6 +58,13 @@ Zielgruppe: Elektrofachkräfte und Planer · Geltungsbereich: Wohnung im MFH (Ne
 
 Kapitelvorlage für neue Kapitel: [_vorlage_kapitel.md](_vorlage_kapitel.md)
 
+**Zusatzdokumente** (eigene PDFs, nicht Teil der Gesamtfassung)
+
+| Dokument | Markdown | PDF |
+|---|---|---|
+| Wiederkehrende Prüfung ortsfester elektrischer Anlagen in Wohnungen (DGUV V3 / DIN VDE 0105-100) | [md](zusatz/DGUV-V3_Pruefung_Wohnung.md) | [PDF](zusatz/DGUV-V3_Pruefung_Wohnung.pdf) |
+| Prüfprotokoll Wohnung (Formular zum Ausdrucken) | [md](zusatz/DGUV-V3_Pruefprotokoll_Wohnung.md) | [PDF](zusatz/DGUV-V3_Pruefprotokoll_Wohnung.pdf) |
+
 ---
 
 ## Bereinigte Widersprüche aus dem Quellmaterial
