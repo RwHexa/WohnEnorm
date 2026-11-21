@@ -161,3 +161,8 @@ Klasse **A** = gefährlicher Mangel, sofort beheben bzw. außer Betrieb · **B**
 | <br><br>Unterschrift: | <br><br>Unterschrift: |
 
 *Grundlagen: DGUV Vorschrift 3 § 5; DIN VDE 0105-100 Abschnitt 5.3.101; DIN VDE 0100-600; DIN EN 61557. Erläuterungen siehe „Wiederkehrende Prüfung ortsfester elektrischer Anlagen in Wohnungen“ (RwTec).*
+
+<div class="absender">
+  <img src="../bilder/logo-rwtec.png" width="56" alt="RwTec">
+  <div><b>RwTec</b><br>Reinhard Wermeling, Elektromeister</div>
+</div>

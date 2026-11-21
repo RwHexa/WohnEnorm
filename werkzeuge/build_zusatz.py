@@ -23,6 +23,10 @@ th { height: auto; }
 tr:nth-child(even) td { background: #fff; }
 thead:not(:has(th:not(:empty))) { display: none; }
 table { break-inside: avoid; }
+.absender { display: flex; align-items: center; gap: 10px; margin-top: 14px;
+            padding-top: 8px; border-top: 1px solid #c9d3dc; font-size: 9.5pt;
+            color: #0b3d63; break-inside: avoid; }
+.absender img { width: 15mm; height: 15mm; }
 """
 
 DOKUMENTE = [
